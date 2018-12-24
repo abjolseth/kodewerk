@@ -27,6 +27,9 @@
     "name": "Are Bjølseth",
     "email": "abjolseth@gmail.com"
   },
+  "publishConfig": {
+    "acccess": "public"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/abjolseth/kodewerk.git/issues"
