@@ -1,0 +1,56 @@
+{
+  "name": "kodewerk",
+  "version": "0.1.0",
+  "description": "Dictionary of kode/term objects for use with associated melosys projects",
+  "main": "./lib/index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "clean": "rimraf lib",
+    "lint": "eslint src",
+    "test": "mocha --reporter spec",
+    "kodewerk": "node $NODE_DEBUG_OPTION index.js"
+  },
+  "files": [
+    "lib",
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abjolseth/kodewerk.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "kodeverk",
+    "NAV"
+  ],
+  "author": {
+    "name": "Are Bjølseth",
+    "email": "abjolseth@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abjolseth/kodewerk.git/issues"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "homepage": "https://github.com/abjolseth/kodewerk.gitk#readme",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "babel-plugin-add-module-exports": "^1.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^5.10.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "js-yaml": "^3.12.0",
+    "rimraf": "^2.6.2"
+  }
+}
