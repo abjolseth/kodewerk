@@ -48,7 +48,7 @@ module.exports.kodeverk = kodeVerk();
 
 const arrayToObject = (array) => {
   return array.reduce((obj, item) => {
-    obj[item.kode] = item.kode;
+    obj[item.kode] = item.term;
     return obj;
   }, {});
 };
